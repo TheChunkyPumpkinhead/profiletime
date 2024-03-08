@@ -25,7 +25,15 @@ function Intro() {
   return (
     <div>
       <h1>Chris Campos</h1>
-      <p>asljaljfl ajfldksjalj. aljfsljflajsldds</p>
+      <p>
+        Experienced Front-End Software Engineer with a strong proficiency in
+        React. Skilled in the development and maintenance of client-facing web
+        applications, known for collaborative teamwork, and committed to
+        optimizing code for superior performance and user experiences.
+        Passionate about taking on new challenges and providing technical
+        leadership, with a proven track record of delivering high-quality web
+        solutions.
+      </p>
     </div>
   );
 }
