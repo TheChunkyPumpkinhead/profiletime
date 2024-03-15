@@ -76,11 +76,13 @@ function SkillList() {
   );
 }
 
-function Skill(props) {
+function Skill({ skill, color, level }) {
   return (
-    <div className="skill" style={{ backgroundColor: props.color }}>
-      <span>{props.skill}</span>
-      <span>{props.emoji}</span>
+    <div className="skill" style={{ backgroundColor: color }}>
+      <span>{skill}</span>
+      {level === "beginner" && "👶"}
+      {level === "advanced" && "💪🏾"}
+      {level === "intermediate" && "👍🏾"}
     </div>
   );
 }
